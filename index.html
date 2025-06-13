@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music</title>
+    <style>
+        /* 簡単なデザイン */
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .player-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 350px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            margin: 0 0 5px 0;
+        }
+        p {
+            margin: 0 0 20px 0;
+            color: #555;
+        }
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-card">
+        <img src="jacket.jpg" alt="ジャケット画像">
+        
+        <h1>曲のタイトル</h1>
+        <p>アーティスト名</p>
+
+        <audio controls src="noise-recording-20250612_210122.webm">
+            お使いのブラウザはオーディオ再生に対応していません。
+        </audio>
+    </div>
+
+</body>
+</html>
